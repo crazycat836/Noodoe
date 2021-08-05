@@ -10,6 +10,6 @@ import Foundation
 struct UserModel {
     let name: String
     let token: String
-    let timezone: Int
+    let timezone: Double
     let objID: String
 }

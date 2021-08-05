@@ -32,6 +32,6 @@ import Foundation
 struct UserData: Codable {
     let username: String
     let sessionToken: String
-    let timezone: Int
+    let timezone: Double
     let objectId: String
 }
