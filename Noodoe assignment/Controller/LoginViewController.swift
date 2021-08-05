@@ -31,8 +31,10 @@ class LoginViewController: UIViewController {
         apiManager.delegate = self
         loginButton.layer.cornerRadius = loginButton.frame.height / 2
         
-        emailTextfield.text = "test2@qq.com"
-        passwordTextfield.text = "test1234qq"
+        //test only
+        
+//        emailTextfield.text = "test2@qq.com"
+//        passwordTextfield.text = "test1234qq"
         
     }
     
